@@ -1,0 +1,129 @@
+30-11-15  Sebastian Baumann <sb@typo3erweiterungen.de>
+	* added height field for LIST view
+	
+12-08-15  Sebastian Baumann <sb@typo3erweiterungen.de>
+	* added tab support for sb_tab
+
+11-08-15  Sebastian Baumann <sb@typo3erweiterungen.de>
+	* separate storagePid possible (via record -> behaviour)
+	
+29-06-15  Sebastian Baumann <sb@typo3erweiterungen.de>
+	* TYPO3 6.2 compatibility 
+
+10-09-14 Sebastian Baumann <sb@typo3erweiterungen.de>
+	* added breadcrumb navigation
+	* added folder structure
+	* added subfolders
+	* added CATEGORIE view
+	* changed secure links (no linkname, only ID)
+	* added required user login
+	* fixed LOCALIZED_UID bug
+	
+14-04-12 Sebastian Baumann <sb@typo3erweiterungen.de>
+	* added nested categories
+
+12-03-25 Sebastian Baumann <sb@typo3erweiterungen.de>
+	* Bug #34188
+
+12-01-04 Sebastian Baumann <sb@typo3erweiterungen.de>
+	* added backend search support
+	* added LATEST view
+	* added preview image with link to first download
+
+11-12-11  Sebastian Baumann <sb@typo3erweiterungen.de>
+	* added TYPO3 4.6.x Support
+	* added linkdescription again
+	* added sort by short description
+	* added sort by backend view
+	
+11-06-06  Sebastian Baumann <sb@typo3erweiterungen.de>
+	* main function rewritten by Robert Heel (Feature #11701)
+	* added external links by Robert Heel (Feature #11701)
+	* added versioning by Robert Heel (Feature #11701)
+	* Workspace capability by Robert Heel (Feature #11701)
+
+10-11-27  Sebastian Baumann <sb@typo3erweiterungen.de>
+	* added support for “all languages”
+	* added singleID as sort option
+	* fixed Bug 10992, 10993 
+	
+10-06-11 Sebastian Baumann  <sb@typo3erweiterungen.de>
+  * added search form
+  * fixed template bug in function generateDownloadLinks (thanks to Carsten Windler)
+	* added typolink functionality (thanks to Robert Heel/Onedrop Solutions GmbH & Co. KG for the patch file)
+	* added singleID-View: Option to insert single downloads via typo3 object browser
+	* added pi_USER_INT_obj (cache)
+
+09-12-22 Sebastian Baumann  <sb@typo3erweiterungen.de>
+  * security bugfix  
+  * fixed small bug with secure links
+
+09-06-16 Sebastian Baumann <sb@typo3erweiterungen.de>
+  * fixed flexform bug
+    
+09-05-15 Sebastian Baumann <sb@typo3erweiterungen.de>
+  * added link target (thanks to Simon Schick)
+  * added: sb_downloader uses automatic the current pageId for singleView and Overview (thanks to Simon Schick)
+  * added flexform tabs in backend  
+  * fixed bug if filename empty    
+
+09-03-20 Sebastian Baumann <sb@typo3erweiterungen.de>
+  * added typolink functionality in shortdescription, description, linkdescription
+  * removed border="0" for xhtml conformity
+      
+08-07-14 Sebastian Baumann <sb@typo3erweiterungen.de>
+	* added hook from Sascha Egerer <seg@softvision.de>
+	* added back link by Simon Schick <ssc@softvision.de>
+
+08-07-14 Sebastian Baumann <sb@typo3erweiterungen.de>
+	* added hook from Markus Dreyer <Markus@MadaXel.de>
+
+08-06-18 Sebastian Baumann <sb@typo3erweiterungen.de>
+	* added link description (a description per downloadlink)
+	* added forcelinkdescription: this is usefull if a link description is set and should only displayed in detail view
+	* added category marker
+
+08-06-16 Sebastian Baumann <sb@typo3erweiterungen.de>
+	* added option to set secure downloads or not
+
+08-06-02 Sebastian Baumann <sb@sitesystems.de>
+	* added: file modification date (thanks to Kurt Kunig, www.kupix.de)
+	* added: sorting of records (thanks to Kurt Kunig, www.kupix.de)
+	*	added: template for link output
+	* added: display only first download record (e.g. for archive in detail view)
+
+08-05-30 Sebastian Baumann <sb@sitesystems.de>
+	* more link appear only if long description is not empty (optional)
+	* fixed bug if more than two languages are available (then the wrong detail view appears)
+
+08-05-26 Sebastian Baumann <sb@sitesystems.de>
+	* fixed bug (sql injection)
+
+08-04-10 Sebastian Baumann <sb@sitesystems.de>
+	* added div container to each download link
+
+08-04-01 Sebastian Baumann <sb@sitesystems.de>
+	* added filesize of download (thanks to Kurt Kunig, www.kupix.de)
+	* added date and time of record creation (thanks to Kurt Kunig, www.kupix.de)
+	* added last edit date
+	* added HTML template
+	* added detail view
+	* added multi language support
+	* added path to download-icons and default icon if file is missing (thanks to Kurt Kunig, www.kupix.de)
+
+08-01-15 Sebastian Baumann  <sb@sitesystems.de>
+	* fixed bug (blank in link description)
+
+07-10-05 Sebastian Baumann  <sb@sitesystems.de>
+	* added typo3 coding guidlines
+	* first public release
+
+07-10-01 Sebastian Baumann  <sb@sitesystems.de>
+	* added imagepreview (e.G. for video files)
+	* fixed bug in "all" view
+
+07-09-25 Sebastian Baumann  <sb@sitesystems.de>
+	* first public use
+
+07-09-19 Sebastian Baumann  <sb@sitesystems.de>
+	* Initial release

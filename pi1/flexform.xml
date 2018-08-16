@@ -1,0 +1,610 @@
+<T3DataStructure>
+<meta>
+<langDisable>1</langDisable>
+</meta>
+  <sheets>
+    <sDEF>
+      <ROOT>
+        <TCEforms>
+          <sheetTitle>LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader_cat</sheetTitle>
+        </TCEforms>
+        <type>array</type>
+        <el>
+					<what_to_display>
+						<TCEforms>
+							<label>LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.what_to_display</label>
+							<config>
+								<type>select</type>
+								<items type="array">
+								<numIndex index="0" type="array">
+									<numIndex index="0">LIST</numIndex>
+									<numIndex index="1">LIST</numIndex>
+								</numIndex>
+								<numIndex index="2" type="array">
+									<numIndex index="0">SINGLE</numIndex>
+									<numIndex index="1">SINGLE</numIndex>
+								</numIndex>
+								<numIndex index="3" type="array">
+									<numIndex index="0">SINGLE_ID</numIndex>
+									<numIndex index="1">SINGLE_ID</numIndex>
+								</numIndex>		
+								<numIndex index="4" type="array">
+									<numIndex index="0">SEARCH</numIndex>
+									<numIndex index="1">SEARCH</numIndex>
+								</numIndex>		
+								<numIndex index="5" type="array">
+									<numIndex index="0">LATEST</numIndex>
+									<numIndex index="1">LATEST</numIndex>
+								</numIndex>	
+								<numIndex index="6" type="array">
+									<numIndex index="0">CATEGORY</numIndex>
+									<numIndex index="1">CATEGORY</numIndex>
+								</numIndex>
+								<numIndex index="7" type="array">
+									<numIndex index="0">SINGLEDOWNLOAD</numIndex>
+									<numIndex index="1">SINGLEDOWNLOAD</numIndex>
+								</numIndex>										
+ 								<numIndex index="8" type="array">
+									<numIndex index="0">SHORTLINK</numIndex>
+									<numIndex index="1">SHORTLINK</numIndex>
+								</numIndex>		
+<!--								<numIndex index="7" type="array">
+									<numIndex index="0">LICENCEACCEPTED</numIndex>
+									<numIndex index="1">LICENCEACCEPTED</numIndex>
+								</numIndex>	 -->									
+								</items>
+								<maxitems>100</maxitems>
+								<size>6</size>
+								<multiple>1</multiple>
+								<selectedListStyle>width:150px</selectedListStyle>
+								<itemListStyle>width:150px</itemListStyle>
+							</config>
+						</TCEforms>
+					</what_to_display>
+				  <dynField>
+					<TCEforms>
+						<label>LLL:EXT:sb_downloader/locallang_db.php:tx_sbdownloader_cat.parent_cat</label>
+						<config>
+							<type>select</type>
+							<form_type>user</form_type>
+							<userFunc>tx_sbdownloader_treeview->displayHierarchyTree</userFunc>
+							<treeView>1</treeView>
+							<foreign_table>tx_sbdownloader_cat</foreign_table>
+							<foreign_table_where>ORDER BY tx_sbdownloader_cat.cat</foreign_table_where>
+							<table_MM>tx_sbdownloader_images_parent_cat_mm</table_MM>
+							<size>5</size>
+							<autoSizeMax>10</autoSizeMax>
+							<minitems>0</minitems>
+							<maxitems>20</maxitems>
+						</config>
+					</TCEforms>
+				  </dynField>					
+        </el>
+      </ROOT>
+    </sDEF>
+  	<s_conf>
+  	<ROOT>
+  		<TCEforms>
+  			<sheetTitle>LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader_conf</sheetTitle>
+  		</TCEforms>   
+        <type>array</type>
+        <el>       					
+					<onlyFirst>
+						<TCEforms>
+							<label>LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.onlyFirst</label>
+							<config>
+								<type>select</type>
+								<items type="array">
+								<numIndex index="1" type="array">
+										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.clicksno</numIndex>
+										<numIndex index="1">0</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.clicksyes</numIndex>
+										<numIndex index="1">1</numIndex>
+									</numIndex>
+								</items>
+								<maxitems>1</maxitems>
+								<size>1</size>
+							</config>
+						</TCEforms>
+					</onlyFirst>
+					<showAll>
+						<TCEforms>
+							<label>LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.showAll</label>
+							<config>
+								<type>select</type>
+								<items type="array">
+								<numIndex index="1" type="array">
+										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.clicksno</numIndex>
+										<numIndex index="1">0</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.clicksyes</numIndex>
+										<numIndex index="1">1</numIndex>
+									</numIndex>
+								</items>
+								<maxitems>1</maxitems>
+								<size>1</size>
+							</config>
+						</TCEforms>
+					</showAll>					
+					<linkTitle>
+						<TCEforms>
+							<label>LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.linkTitle</label>
+							<config>
+								<type>select</type>
+								<items type="array">
+								<numIndex index="1" type="array">
+										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.clicksno</numIndex>
+										<numIndex index="1">0</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.clicksyes</numIndex>
+										<numIndex index="1">1</numIndex>
+									</numIndex>
+								</items>
+								<maxitems>1</maxitems>
+								<size>1</size>
+							</config>
+						</TCEforms>
+					</linkTitle>					
+					<showMore>
+						<TCEforms>
+							<label>LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.showMore</label>
+							<config>
+								<type>select</type>
+								<items type="array">
+								<numIndex index="1" type="array">
+										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.clicksno</numIndex>
+										<numIndex index="1">0</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.clicksyes</numIndex>
+										<numIndex index="1">1</numIndex>
+									</numIndex>
+								</items>
+								<maxitems>1</maxitems>
+								<size>1</size>
+							</config>
+						</TCEforms>
+					</showMore>
+               <orderbyCats>
+						<TCEforms>
+							<label>LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.orderbyCats</label>
+							<config>
+								<type>select</type>
+								<items type="array">
+   								<numIndex index="0" type="array">
+   										<numIndex index="0"></numIndex>
+   										<numIndex index="1"></numIndex>
+   								</numIndex>
+   								<numIndex index="1" type="array">
+   										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.orderbyTitle</numIndex>
+   										<numIndex index="1">cat</numIndex>
+   								</numIndex>
+   								<numIndex index="2" type="array">
+   									<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.orderbyCrDate</numIndex>
+   									<numIndex index="1">crdate</numIndex>
+   								</numIndex>
+   								<numIndex index="3" type="array">
+   									<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.orderbyLastModified</numIndex>
+   									<numIndex index="1">tstamp</numIndex>
+   								</numIndex>
+   								</items>
+								<maxitems>1</maxitems>
+								<size>1</size>
+							</config>
+						</TCEforms>
+					</orderbyCats>
+
+               <ascdescCats>
+						<TCEforms>
+							<label>LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.ascdescCats</label>
+							<config>
+								<type>select</type>
+								<items type="array">
+   								<numIndex index="1" type="array">
+   										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.asc</numIndex>
+   										<numIndex index="1">ASC</numIndex>
+   								</numIndex>
+   								<numIndex index="2" type="array">
+   										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.desc</numIndex>
+   										<numIndex index="1">DESC</numIndex>
+   								</numIndex>
+   							</items>
+								<maxitems>1</maxitems>
+								<size>1</size>
+							</config>
+						</TCEforms>
+					</ascdescCats>					
+               <orderby>
+						<TCEforms>
+							<label>LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.orderby</label>
+							<config>
+								<type>select</type>
+								<items type="array">
+   								<numIndex index="0" type="array">
+   										<numIndex index="0"></numIndex>
+   										<numIndex index="1"></numIndex>
+   								</numIndex>
+   								<numIndex index="1" type="array">
+   										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.orderbyTitle</numIndex>
+   										<numIndex index="1">name</numIndex>
+   								</numIndex>
+   								<numIndex index="3" type="array">
+   									<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.orderbyCrDate</numIndex>
+   									<numIndex index="1">crdate</numIndex>
+   								</numIndex>
+   								<numIndex index="4" type="array">
+   									<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.orderbyLastModified</numIndex>
+   									<numIndex index="1">tstamp</numIndex>
+   								</numIndex>
+   								<numIndex index="5" type="array">
+   									<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader_singlepid</numIndex>
+   									<numIndex index="1">singleID</numIndex>
+   								</numIndex>		
+								<numIndex index="6" type="array">
+   									<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader_backend</numIndex>
+   									<numIndex index="1">backend</numIndex>
+   								</numIndex>	
+								<numIndex index="7" type="array">
+   									<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader_sortshortdescription</numIndex>
+   									<numIndex index="1">description</numIndex>
+   								</numIndex>	
+   								</items>
+								<maxitems>1</maxitems>
+								<size>1</size>
+							</config>
+						</TCEforms>
+					</orderby>
+
+               <ascdesc>
+						<TCEforms>
+							<label>LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.ascdesc</label>
+							<config>
+								<type>select</type>
+								<items type="array">
+   								<numIndex index="1" type="array">
+   										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.asc</numIndex>
+   										<numIndex index="1">ASC</numIndex>
+   								</numIndex>
+   								<numIndex index="2" type="array">
+   										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.desc</numIndex>
+   										<numIndex index="1">DESC</numIndex>
+   								</numIndex>
+   							</items>
+								<maxitems>1</maxitems>
+								<size>1</size>
+							</config>
+						</TCEforms>
+					</ascdesc>
+					<filesize>
+						<TCEforms>
+							<label>LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.filesize</label>
+							<config>
+								<type>select</type>
+								<items type="array">
+								<numIndex index="1" type="array">
+										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.clicksno</numIndex>
+										<numIndex index="1">0</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.clicksyes</numIndex>
+										<numIndex index="1">1</numIndex>
+									</numIndex>
+								</items>
+								<maxitems>1</maxitems>
+								<size>1</size>
+							</config>
+						</TCEforms>
+					</filesize>
+					<filedate>
+						<TCEforms>
+							<label>LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.filedate</label>
+							<config>
+								<type>select</type>
+								<items type="array">
+								<numIndex index="1" type="array">
+										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.clicksno</numIndex>
+										<numIndex index="1">0</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.clicksyes</numIndex>
+										<numIndex index="1">1</numIndex>
+									</numIndex>
+								</items>
+								<maxitems>1</maxitems>
+								<size>1</size>
+							</config>
+						</TCEforms>
+					</filedate>
+					<showCRDate>
+						<TCEforms>
+							<label>LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.showCRDate</label>
+							<config>
+								<type>select</type>
+								<items type="array">
+								<numIndex index="1" type="array">
+										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.showCRDate.nodate</numIndex>
+										<numIndex index="1">0</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.showCRDate.date</numIndex>
+										<numIndex index="1">1</numIndex>
+									</numIndex>
+									<numIndex index="3" type="array">
+										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.showCRDate.datetime</numIndex>
+										<numIndex index="1">2</numIndex>
+									</numIndex>
+								</items>
+								<maxitems>1</maxitems>
+								<size>1</size>
+							</config>
+						</TCEforms>
+					</showCRDate>
+					<showEditDate>
+						<TCEforms>
+							<label>LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.showEditDate</label>
+							<config>
+								<type>select</type>
+								<items type="array">
+								<numIndex index="1" type="array">
+										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.clicksno</numIndex>
+										<numIndex index="1">0</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.clicksyes</numIndex>
+										<numIndex index="1">1</numIndex>
+									</numIndex>
+								</items>
+								<maxitems>1</maxitems>
+								<size>1</size>
+							</config>
+						</TCEforms>
+					</showEditDate>
+					<downloads>
+						<TCEforms>
+							<label>LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.showclicks</label>
+							<config>
+								<type>select</type>
+								<items type="array">
+								<numIndex index="1" type="array">
+										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.clicksno</numIndex>
+										<numIndex index="1">0</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.clicksyes</numIndex>
+										<numIndex index="1">1</numIndex>
+									</numIndex>
+								</items>
+								<maxitems>1</maxitems>
+								<size>1</size>
+							</config>
+						</TCEforms>
+					</downloads>
+					<secureDownloads>
+						<TCEforms>
+							<label>LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.secureDownloads</label>
+							<config>
+								<type>select</type>
+								<items type="array">
+								<numIndex index="1" type="array">
+										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.clicksno</numIndex>
+										<numIndex index="1">0</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.clicksyes</numIndex>
+										<numIndex index="1">1</numIndex>
+									</numIndex>
+								</items>
+								<maxitems>1</maxitems>
+								<size>1</size>
+							</config>
+						</TCEforms>
+					</secureDownloads>
+					<related>
+						<TCEforms>
+							<label>LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader_images.related</label>
+							<config>
+								<type>select</type>
+								<items type="array">
+								<numIndex index="1" type="array">
+										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.clicksno</numIndex>
+										<numIndex index="1">0</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.clicksyes</numIndex>
+										<numIndex index="1">1</numIndex>
+									</numIndex>
+								</items>
+								<maxitems>1</maxitems>
+								<size>1</size>
+							</config>
+						</TCEforms>
+					</related>					
+					<imagelink>
+						<TCEforms>
+							<label>LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.imagelink</label>
+							<config>
+								<type>select</type>
+								<items type="array">
+								<numIndex index="1" type="array">
+										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.clicksno</numIndex>
+										<numIndex index="1">0</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.clicksyes</numIndex>
+										<numIndex index="1">1</numIndex>
+									</numIndex>
+								</items>
+								<maxitems>1</maxitems>
+								<size>1</size>
+							</config>
+						</TCEforms>
+					</imagelink>	
+					<limit>
+						<TCEforms>
+						<label>LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.limit</label>
+						<config>
+							<type>input</type>
+							<size>60</size>
+							<checkbox></checkbox>
+							
+						</config>
+						</TCEforms>
+					</limit>					
+        </el>
+      </ROOT>
+    </s_conf>
+    <s_licence>
+  	<ROOT>
+  		<TCEforms>
+  			<sheetTitle>LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader_licence</sheetTitle>
+  		</TCEforms>   
+        <type>array</type>
+        <el>  
+					<licence>
+						<TCEforms>
+							<label>LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.licence</label>
+							<config>
+								<type>select</type>
+								<items type="array">
+								<numIndex index="1" type="array">
+										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.clicksno</numIndex>
+										<numIndex index="1">0</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.clicksyes</numIndex>
+										<numIndex index="1">1</numIndex>
+									</numIndex>
+								</items>
+								<maxitems>1</maxitems>
+								<size>1</size>
+							</config>
+						</TCEforms>				
+					</licence>	 
+					<licencelink>
+						<TCEforms>
+								<exclude>1</exclude>
+								<label>LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.licencelink</label>
+								<config>
+										<type>input</type>
+										<size>30</size>
+										<max>256</max>
+										<checkbox></checkbox>
+										<eval>trim</eval>
+										<wizards type="array">
+											
+												<link type="array">
+														<type>popup</type>
+														<title>Link</title>
+														<icon>link_popup.gif</icon>
+														
+														<module type="array">
+															<name>wizard_element_browser</name>
+															<urlParameters type="array">
+																<mode>wizard</mode>
+																
+															</urlParameters>
+														</module>
+														<JSopenParams>height=300,width=500,status=0,menubar=0,scrollbars=1</JSopenParams>
+												</link>
+										</wizards>
+								</config>
+						</TCEforms>					
+					</licencelink>
+					<licencesubsite>
+						<TCEforms>
+							<label>LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.licencesubsite</label>
+							<config>
+								<type>select</type>
+								<items type="array">
+								<numIndex index="1" type="array">
+										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.clicksno</numIndex>
+										<numIndex index="1">0</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.clicksyes</numIndex>
+										<numIndex index="1">1</numIndex>
+									</numIndex>
+								</items>
+								<maxitems>1</maxitems>
+								<size>1</size>
+							</config>
+						</TCEforms>				
+					</licencesubsite>	 					
+        </el>
+      </ROOT>
+    </s_licence> 		
+    <s_template>
+  	<ROOT>
+  		<TCEforms>
+  			<sheetTitle>LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader_template</sheetTitle>
+  		</TCEforms>   
+        <type>array</type>
+        <el>  
+			<template_file>
+				<TCEforms>
+					<label>LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.template_file</label>
+					<config>
+						<type>group</type>
+						<internal_type>file</internal_type>
+						<allowed>tmpl,html,htm</allowed>
+						<max_size>100</max_size>
+						<uploadfolder>uploads/tx_sbdownloader</uploadfolder>
+						<maxitems>1</maxitems>
+						<size>1</size>
+						<selectedListStyle>Width:180px</selectedListStyle>
+					</config>
+				</TCEforms>
+			</template_file> 
+			<tabid>
+				<TCEforms>
+				<label>LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.tab</label>
+				<config>
+					<type>input</type>
+					<size>10</size>
+					<checkbox></checkbox>					
+				</config>
+				</TCEforms>
+			</tabid>
+			<height>
+				<TCEforms>
+				<label>LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.height</label>
+				<config>
+					<type>input</type>
+					<size>10</size>
+					<checkbox></checkbox>					
+				</config>
+				</TCEforms>
+			</height>					
+        </el>
+      </ROOT>
+    </s_template>  
+		<s_singlepid>
+  	<ROOT>
+  		<TCEforms>
+  			<sheetTitle>LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader_singlepid</sheetTitle>
+  		</TCEforms>   
+        <type>array</type>
+        <el>  
+		<singlePID>
+			<TCEforms>
+				<label>LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.singlePID</label>
+				<config>
+					<type>group</type>
+					<internal_type>db</internal_type>
+					<allowed>tx_sbdownloader_images</allowed>
+					<max_size>100</max_size>								
+					<maxitems>10</maxitems>
+					<size>5</size>
+					<selectedListStyle>Width:180px</selectedListStyle>
+				</config>
+			</TCEforms>
+		</singlePID>    	
+        </el>
+      </ROOT>
+    </s_singlepid>   
+  </sheets>
+</T3DataStructure>

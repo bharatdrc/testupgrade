@@ -1,0 +1,66 @@
+# Bilder
+plugin.tx_sbdownloader_pi1 {
+	# template
+	templateFile = typo3conf/ext/sb_downloader/sb_download_template.html	
+	# site with download overview and singleview - if empty it uses the actual pageid
+	singlePID =
+	overviewPID =
+	licencePID = 820
+	licenceAcceptedPID = 821
+	# site with user registration / login
+	loginpage = 
+	#what_to_display: define the view (list/single/search)
+	what_to_display =
+	# download description (1 = filename.fileextension, 2 = filename, 3 = fileextension)
+	linkdescription = 1
+	# force linkdescription, if filename is set in download record
+	forcelinkdescription = 0
+	# date format (for last edit an creation date)
+	dateformat = m/d/y
+	# time format
+	timeformat = H:i
+	# datetimeformat
+	datetimeformat = d.m.y
+	# download icon
+	# if set to typo3/gfx/fileicons/ typo3 standard icons appear
+	# you can set own images like:
+	# downloadIcon = typo3conf/ext/sb_downloader/pi1/images/download.gif
+	downloadIcon = typo3/gfx/fileicons/
+	# if a download icon is missing (e.g. *.rar)
+	missingDownloadIcon = typo3conf/ext/sb_downloader/pi1/images/download.gif
+	# distance around image
+	imageDistance = 5
+	# show file modification date (boolean)
+	showFiledate = 0
+	# set the target of the links in singleView - if you dont want to use a target just clear it.
+	linkTarget = 
+	# sort by (name,crdate,tstamp,singleID,backend,description/default = name)
+	sortBy = name
+	# imagelink: preview image with link to first download
+	imagelink = 0
+	# Limit: max items for LATEST
+	limit = 3
+	# image settings	
+	image{
+	    file.maxW = 80
+	    imageLinkWrap = 1
+	    imageLinkWrap {
+	      enable = 1
+	      bodyTag = <BODY bgColor=white>
+	      wrap = <A href="javascript:close();"> | </A>
+	      width = 400m
+	      height = 400
+	      JSwindow = 1
+	      JSwindow.newWindow = 1
+	      JSwindow.expand = 17,20
+	    }
+  }
+  # use Icons for subcategory
+  useCatIcons = 1
+  # catIcon: path to cat Icon
+  catIcon = typo3conf/ext/sb_downloader/res/images/folder.png
+  # date and time by Kurt Kupix
+  # displayCreationDate (0 = no date & time, 1 = only date, 2 = date & time)
+  displayCreationDate = 1
+
+}

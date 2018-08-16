@@ -1,0 +1,160 @@
+/* Template Vars */
+All placeholder are available in all templates.
+###TITLE### = Title of download
+###LINKS### = All download links with filesize in brackets and download icon
+###FILESIZE### = filesize of links
+###ICON### = download icon
+###SHORTDESCRIPTION### = Short description of doanload(s)
+###MORE### = Link to detailview
+###IMAGE### = Preview image
+###CLICKS### = Download counter
+###DATE### = Creation date (and time)
+###LASTEDIT### = Last edit date
+###CATEGORY### = Category Name
+###RELATED### = Related Downloads
+
+<!-- ###TEMPLATE### begin -->
+<!-- BEGIN: Content of extension "sb_downloader", plugin "sb_downloader" -->
+<div id="sb_download_flexWrap">
+  <!-- ###CONTENT### begin-->
+     <!-- ###LIST_ITEM### begin -->				
+			  <div class="sb_download_flex" ###HEIGHT###>
+					  <div class="title">###TITLE###</div>
+ 						<div class="category">###CATEGORY###</div>
+						 <div class="sb_download_text">
+								<div class="links">###LINKS###</div>
+							 	<div class="description">###SHORTDESCRIPTION###</div>
+							 	###MORE###
+						 </div>
+							<div class="sb_download_image">###IMAGE###</div>
+							<div style="clear: both"></div>
+					 	<div class="clicks">###CLICKS###</div>
+					 	<div class="datetime">###DATE###</div>
+					 	<div class="datetime">###LASTEDIT###</div>
+			  </div>
+      <!-- ###LIST_ITEM### end -->
+  <!-- ###CONTENT### end-->
+</div>
+<!-- END Content of extension "sb_downloader", plugin "sb_downloader" -->
+<!-- ###TEMPLATE### end -->
+
+<!-- ###TEMPLATE_CAT### begin -->
+<!-- BEGIN: Content of extension "sb_downloader", plugin "sb_downloader" -->
+<div id="sb_download_flexWrap_cat">
+	<div id="sb_download_breadcrumb">###BREADCRUMB###</div>
+	###CATLIST###
+</div>
+<div style="clear:both;"></div>
+<!-- ###TEMPLATE_CAT### end -->
+
+
+<!-- ###TEMPLATE_LATEST### begin -->
+<!-- BEGIN: Content of extension "sb_downloader", plugin "sb_downloader" -->
+<div id="sb_download_flexWrap">
+  <!-- ###CONTENT### begin-->
+     <!-- ###LIST_LATEST_ITEM### begin -->
+			  <div class="sb_download_flex">
+					  <div class="title">###TITLE###</div>
+ 						<div class="category">###CATEGORY###</div>
+						 <div class="sb_download_text">
+								<div class="links">###LINKS###</div>
+								<div class="links">###RELATED###</div>
+							 	<div class="description">###SHORTDESCRIPTION###</div>
+							 	###MORE###
+						 </div>
+							<div class="sb_download_image">###IMAGE###</div>
+							<div style="clear: both"></div>
+					 	<div class="clicks">###CLICKS###</div>
+					 	<div class="datetime">###DATE###</div>
+					 	<div class="datetime">###LASTEDIT###</div>
+			  </div>
+      <!-- ###LIST_LATEST_ITEM### end -->
+  <!-- ###CONTENT### end-->
+</div>
+<!-- END Content of extension "sb_downloader", plugin "sb_downloader" -->
+<!-- ###TEMPLATE_LATEST### end -->
+
+<!-- ###TEMPLATE_SINGLE_ID### begin -->
+<!-- BEGIN: Content of extension "sb_downloader", plugin "sb_downloader" -->
+<div id="sb_download_singleFlexWrap">
+  <!-- ###CONTENT### begin-->
+     <!-- ###LIST_SINGLE_ITEM### begin -->
+			  <div class="sb_download_singleflex">
+					  <div class="title">###TITLE###</div>
+						 <div class="links">###LINKS###</div>
+			  </div>				
+				<div style="clear: both"></div>
+      <!-- ###LIST_SINGLE_ITEM### end -->			
+  <!-- ###CONTENT### end-->
+</div>
+<!-- END Content of extension "sb_downloader", plugin "sb_downloader" -->
+<!-- ###TEMPLATE_SINGLE_ID### end -->
+
+
+  <!-- Single Template -->
+<!-- ###TEMPLATE_SINGLE### begin -->
+	<div class="sb_download_single">
+					  <div class="title">###TITLE###</div>
+					  <div class="category">###CATEGORY###</div>
+						 <div class="sb_download_text">
+								<div class="links">###LINKS###</div>
+							 	<div class="description">###DESCRIPTION###</div>
+							 ###BACK###
+						 </div>
+							<div class="sb_download_image">###IMAGE###</div>
+							<div style="clear: both"></div>
+					 	<div class="clicks">###CLICKS###</div>
+					 	<div class="datetime">###DATE###</div>
+					 	<div class="datetime">###LASTEDIT###</div>
+	</div>
+<!-- ###TEMPLATE_SINGLE### end -->
+  <!-- Single Template -->
+
+  <!-- Search Template -->
+<!-- ###TEMPLATE_SEARCH### begin -->
+	<div class="sb_download_search">
+	<form action="###SEARCHPID###" method="post" name="searchform" id="searchform" style="margin:0px; padding:0px; ">
+  <h2>###HEADLINE###</h2>
+	<table height="14" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td align="left"><input name="tx_sbdownloader_pi1[sword]" type="text" value="###KEYWORD###" style="height:18; width:130; font-size:11" /></td>
+      <td><input name="tx_sbdownloader_pi1[submit_button]" type="submit" style="border:0" value="###SUBMIT###" />
+      </td>
+    </tr>
+  </table>
+</form>
+	</div>
+<!-- ###TEMPLATE_SEARCH### end -->
+  <!-- Search Template -->	
+	
+  <!-- Licence Template -->
+<!-- ###TEMPLATE_LICENCE### begin -->
+	<div class="sb_download_licence">
+	<form action="###SEARCHPID###" method="post" name="searchform" id="searchform" style="margin:0px; padding:0px; ">
+  <h2>###HEADLINE###</h2>
+	<table height="14" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td align="left"><input name="tx_sbdownloader_pi1[sword]" type="text" value="###KEYWORD###" style="height:18; width:130; font-size:11" /></td>
+      <td><input name="tx_sbdownloader_pi1[submit_button]" type="submit" style="border:0" value="###SUBMIT###" />
+      </td>
+    </tr>
+  </table>
+</form>
+	</div>
+<!-- ###TEMPLATE_LICENCE### end -->
+  <!-- Licence Template -->		
+	
+	
+  <!-- Template for link output-->
+<!-- ###TEMPLATE_LINKS### begin -->
+
+  <!-- ###CONTENT_LINK### begin-->
+     <!-- ###LINK_ITEM### begin -->
+			###ICON### ###LINK### ###FILESIZE###
+      <!-- ###LINK_ITEM### end -->
+  <!-- ###CONTENT_LINK### end-->
+
+<!-- ###TEMPLATE_LINKS### end -->
+  <!-- Template for link ouput -->
+  </body>
+</html>

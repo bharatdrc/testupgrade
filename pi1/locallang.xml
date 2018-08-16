@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for plugin &quot;tx_sbdownloader_pi1&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="download">Download</label>
+			<label index="downloads">Download(s)</label>
+			<label index="novalue">No data</label>
+			<label index="notranslation">No translation available</label>
+			<label index="bracketstart">(</label>
+			<label index="bracketend">)</label>
+			<label index="filesize">Filesize: </label>
+			<label index="fileDate">last edit of file: </label>
+			<label index="since">since: </label>
+			<label index="oclock">O´clock</label>
+			<label index="more">[more]</label>
+			<label index="lastedit">last edit: </label>
+			<label index="linkTitle">Download file</label>
+			<label index="back">[back]</label>
+			<label index="catDescription">Category: </label>
+			<label index="searchHeadline">Search: </label>
+			<label index="dlheadline">Your download will start shortly...</label>							
+			<label index="licenceHeadline">Please accept the terms of licence</label>			
+			<label index="submit">Submit</label>
+			<label index="accept">Accept</label>
+			<label index="breadcrumb">You are here: </label>	
+			<label index="searchresult">Search results: </label>	
+			<label index="noresult">No search results!</label>	
+			<label index="norecords">No downloads in this category available!</label>	
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="download">Download</label>
+			<label index="downloads">Download(s)</label>
+			<label index="novalue">Keine Daten vorhanden</label>
+			<label index="notranslation">Keine Übersetzung vorhanden.</label>
+			<label index="bracketstart">(</label>
+			<label index="bracketend">)</label>
+			<label index="filesize">Dateigröße: </label>
+			<label index="fileDate">Letzte Dateiänderung: </label>
+			<label index="since">seit: </label>
+			<label index="oclock">Uhr</label>
+			<label index="more">[mehr]</label>
+			<label index="lastedit">Letzte Änderung: </label>
+			<label index="linkTitle">Datei downloaden</label>
+			<label index="back">[zurück]</label>
+			<label index="catDescription">Kategorie: </label>
+			<label index="searchHeadline">Suche: </label>
+			<label index="licenceHeadline">Sie müssen vor dem Download die Lizenebdingungen bestätigen</label>
+			<label index="submit">suchen</label>
+			<label index="accept">Lizenbedigungen bestätigen</label>
+			<label index="dlheadline">Ihr Download beginnt umgehend....</label>		
+			<label index="breadcrumb">Sie sind hier: </label>	
+			<label index="searchresult">Suchergebnisse: </label>
+			<label index="noresult">Leider keine Suchergebnisse!</label>	
+			<label index="norecords">Keine Downloads in dieser Kategorie!</label>				
+		</languageKey>
+	</data>
+</T3locallang>
