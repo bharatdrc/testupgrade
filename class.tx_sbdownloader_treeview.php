@@ -69,9 +69,10 @@ class tx_sbdownloader_tceFunc_selectTreeView extends \TYPO3\CMS\Backend\Tree\Vie
 	 *
 	 * @param	string		$title: the title
 	 * @param	array		$v: an array with uid and title of the current item.
+	 * @param int $bank Bank pointer (which mount point number)
 	 * @return	string		the wrapped title
 	 */
-	function wrapTitle($title,$v)	{
+	public function wrapTitle($title,$v,$bank = 0)	{
 		if($v['uid']>0) {
 			if (in_array($v['uid'],$this->TCEforms_nonSelectableItemsArray)) {
 				return '<a href="#" title="'.$v['cat'].'"><span style="color:#999;cursor:default;">'.$v['cat'].'</span></a>';
@@ -285,8 +286,8 @@ class tx_sbdownloader_treeview {
 	 */
 	function displayHierarchyTree($PA, $fobj)    {
 		
-		// print_r($PA['itemFormElValue']);
-		// exit;
+		
+		 
 		
 		// check if $PA['itemFormElValue'] empty
 		// if(empty($PA['itemFormElValue'])){
@@ -304,12 +305,14 @@ class tx_sbdownloader_treeview {
 				
 			// it seems TCE has a bug and do not work correctly with '1'
 		$config['maxitems'] = ($config['maxitems']==2) ? 1 : $config['maxitems'];
+		
 
 			// Getting the selector box items from the system
-		$selItems = $this->pObj->addSelectOptionsToItemArray($this->pObj->initItemArray($PA['fieldConf']),$PA['fieldConf'],$this->pObj->setTSconfig($table,$row),$field);
-		$selItems = $this->pObj->addItems($selItems,$PA['fieldTSConfig']['addItems.']);
-		#if ($config['itemsProcFunc']) $selItems = $this->pObj->procItems($selItems,$PA['fieldTSConfig']['itemsProcFunc.'],$config,$table,$row,$field);
-
+		///$selItems = $this->pObj->addSelectOptionsToItemArray($this->pObj->initItemArray($PA['fieldConf']),$PA['fieldConf'],$this->pObj->setTSconfig($table,$row),$field);
+		//$selItems = $this->pObj->addItems($selItems,$PA['fieldTSConfig']['addItems.']);
+		if ($config['itemsProcFunc']) 
+			$selItems = $this->pObj->procItems($selItems,$PA['fieldTSConfig']['itemsProcFunc.'],$config,$table,$row,$field);
+ 
 			// Possibly remove some items:
 		$removeItems=\TYPO3\CMS\Core\Utility\GeneralUtility::trimExplode(',',$PA['fieldTSConfig']['removeItems'],1);
 		foreach($selItems as $tk => $p)	{
@@ -321,7 +324,7 @@ class tx_sbdownloader_treeview {
 
 				// Removing doktypes with no access:
 			if ($table.'.'.$field == 'pages.doktype')	{
-				if (!($GLOBALS['BE_USER']->isAdmin() || t3lib_div::inList($GLOBALS['BE_USER']->groupData['pagetypes_select'],$p[1])))	{
+				if (!($GLOBALS['BE_USER']->isAdmin() || \TYPO3\CMS\Core\Utility\GeneralUtility::inList($GLOBALS['BE_USER']->groupData['pagetypes_select'],$p[1])))	{
 					unset($selItems[$tk]);
 				}
 			}

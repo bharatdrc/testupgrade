@@ -2,7 +2,7 @@
 
 return array(
 	"ctrl" => array (
-		'title'     => 'LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader_cat',
+		'title'     => 'LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader_shortlink',
 		'label'     => 'cat',
 		'tstamp'    => 'tstamp',
 		'crdate'    => 'crdate',

@@ -66,7 +66,7 @@ class tx_sbdownloader_pi1 extends \TYPO3\CMS\Frontend\Plugin\AbstractPlugin {
 		$this->pi_loadLL();
 			
 	   // Preconfigure the typolink
-		$this->local_cObj = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance("tslib_cObj");
+		$this->local_cObj = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance("TYPO3\\CMS\\Frontend\\ContentObject\\ContentObjectRenderer");
 		$this->local_cObj->setCurrentVal($GLOBALS["TSFE"]->id);
 		$this->typolink_conf = $this->conf["typolink."];
 		$this->typolink_conf["parameter."]["current"] = 1;
@@ -405,7 +405,7 @@ class tx_sbdownloader_pi1 extends \TYPO3\CMS\Frontend\Plugin\AbstractPlugin {
 				if(in_array($imageext,$imagemimetypes)) {
 					$img = $this->conf["image."];
 					$img["file"] = $filepath;
-					$showImage = $this->cObj->IMAGE($img);
+					$showImage = $this->cObj->cObjGetSingle('IMAGE',$img);
 					
 					break;
 				}else{
@@ -415,7 +415,7 @@ class tx_sbdownloader_pi1 extends \TYPO3\CMS\Frontend\Plugin\AbstractPlugin {
 					if($fileExt == "pdf") {
 						$img = $this->conf["image."];
 						$img["file"] = $filepath;
-						$showImage = $this->cObj->IMAGE($img);
+						$showImage = $this->cObj->cObjGetSingle('IMAGEIMAGEIMAGE',$img);
 						
 						break;
 					}else{

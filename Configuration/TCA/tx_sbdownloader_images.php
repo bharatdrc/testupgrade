@@ -226,7 +226,7 @@ return array(
             'exclude' => 1,
 			'l10n_mode' => 'exclude',
             'label' => 'LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader_images.cat',
-			'config' => Array (
+			/*'config' => Array (
 				'type' => 'select',
 				'form_type' => 'user',
 				'userFunc' => 'tx_sbdownloader_treeview->displayHierarchyTree',
@@ -240,7 +240,45 @@ return array(
                 'foreign_table_where' => "AND tx_sbdownloader_cat.pid=###STORAGE_PID### AND tx_sbdownloader_cat.sys_language_uid IN (-1,0) ORDER BY tx_sbdownloader_cat.cat",
 				'MM' => 'tx_sbdownloader_images_cat_mm',
 				'table_MM' => 'tx_sbdownloader_images_parent_cat_mm',
-			),
+			),*/
+			'config' => [
+				'type' => 'select',
+				'renderType' => 'selectMultipleSideBySide',
+				'foreign_table' => 'tx_sbdownloader_cat',
+				'MM' => 'tx_sbdownloader_images_cat_mm',
+				'size' => 10,
+				'autoSizeMax' => 30,
+				'minitems' => 0,
+				'maxitems' => 9999,
+				'multiple' => 0,
+				'wizards' => [
+					'_PADDING' => 1,
+					'_VERTICAL' => 1,
+					'edit' => [
+						'module' => [
+							'name' => 'wizard_edit',
+						],
+						'type' => 'popup',
+						'title' => 'Edit', // todo define label: LLL:EXT:.../Resources/Private/Language/locallang_tca.xlf:wizard.edit
+						'icon' => 'EXT:backend/Resources/Public/Images/FormFieldWizard/wizard_edit.gif',
+						'popup_onlyOpenIfSelected' => 1,
+						'JSopenParams' => 'height=350,width=580,status=0,menubar=0,scrollbars=1',
+					],
+					'add' => [
+						'module' => [
+							'name' => 'wizard_add',
+						],
+						'type' => 'script',
+						'title' => 'Create new', // todo define label: LLL:EXT:.../Resources/Private/Language/locallang_tca.xlf:wizard.add
+						'icon' => 'EXT:backend/Resources/Public/Images/FormFieldWizard/wizard_add.gif',
+						'params' => [
+							'table' => 'tx_sbdownloader_cat',
+							'pid' => '###CURRENT_PID###',
+							'setValue' => 'prepend'
+						],
+					],
+				],
+			],
         ),		
 	),
 		
