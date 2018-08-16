@@ -33,7 +33,7 @@ class tx_sbdownloader_addFieldsToFlexForm{
 */
 function getStorageFolderPid() {
 	// global $_GET; 	
-	$positionPid = \TYPO3\CMS\Core\Utility\GeneralUtility::htmlspecialchars_decode(t3lib_div::_GET('id'));
+	$positionPid = \TYPO3\CMS\Core\Utility\GeneralUtility::htmlspecialchars_decode(\TYPO3\CMS\Core\Utility\GeneralUtility::_GET('id'));
 	// $pid = t3lib_div::_GP('id');
 	// print_r($pid);
 	if(empty($positionPid)){

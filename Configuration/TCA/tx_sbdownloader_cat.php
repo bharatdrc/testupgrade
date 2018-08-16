@@ -5,7 +5,7 @@ if (TYPO3_MODE=='BE'){
 }
 return array(
 	"ctrl" => array (
-		'title'     => 'LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader_cat',
+		'title'     => 'LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader_cat',
 		'label'     => 'cat',
 		'tstamp'    => 'tstamp',
 		'crdate'    => 'crdate',
@@ -22,7 +22,7 @@ return array(
 			'disabled' => 'hidden',
 		),
 		//'dynamicConfigFile' => \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath($_EXTKEY).'tca.php',
-		'iconfile'          => 'EXT:sb_downloader/icon_tx_sbdownloader_cat.gif',
+		'iconfile'          => 'EXT:sb_downloader/Resources/Public/Icons/icon_tx_sbdownloader_cat.gif',
 	),
 	"feInterface" => array (
 		"fe_admin_fieldList" => "sys_language_uid, l18n_parent, l18n_diffsource, hidden, cat, parent_cat",
@@ -41,15 +41,22 @@ return array(
 			)
 		),
 		'sys_language_uid' => array (
-			'exclude' => 1,
-			'label'  => 'LLL:EXT:lang/locallang_general.xml:LGL.language',
-			'config' => array (
-				'type'                => 'select',
-				'foreign_table'       => 'sys_language',
+			'exclude' => true,
+			'label' => 'LLL:EXT:lang/locallang_general.xlf:LGL.language',
+			'config' => array(
+				'type' => 'select',
+				'renderType' => 'selectSingle',
+				'foreign_table' => 'sys_language',
 				'foreign_table_where' => 'ORDER BY sys_language.title',
 				'items' => array(
-					array('LLL:EXT:lang/locallang_general.xml:LGL.allLanguages', -1),
-					array('LLL:EXT:lang/locallang_general.xml:LGL.default_value', 0)
+					array(
+						'LLL:EXT:lang/locallang_general.xlf:LGL.allLanguages',
+						-1
+					),
+					array(
+						'LLL:EXT:lang/locallang_general.xlf:LGL.default_value',
+						0
+					)
 				)
 			)
 		),
@@ -73,7 +80,7 @@ return array(
 		),
 		'hidden' => array (
 			'exclude' => 1,
-			'label'   => 'LLL:EXT:lang/locallang_general.xml:LGL.hidden',
+			'label'   => 'LLL:EXT:lang/locallang_general.xlf:LGL.hidden',
 			'config'  => array (
 				'type'    => 'check',
 				'default' => '0'
@@ -81,7 +88,7 @@ return array(
 		),
 		"cat" => Array (
 			"exclude" => 1,
-			"label" => "LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader_cat.cat",
+			"label" => "LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader_cat.cat",
 			"config" => Array (
 				"type" => "input",
 				"size" => "30",
@@ -157,7 +164,7 @@ return array(
 					],
 				],
 			],
-			
+
         ),		
 	),
 	"types" => array (

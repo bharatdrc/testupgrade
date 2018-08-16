@@ -1,7 +1,7 @@
 # Bilder
 plugin.tx_sbdownloader_pi1 {
 	# template
-	templateFile = typo3conf/ext/sb_downloader/sb_download_template.html	
+	templateFile = typo3conf/ext/sb_downloader/Resources/Private/Templates/sb_download_template.html	
 	# site with download overview and singleview - if empty it uses the actual pageid
 	singlePID =
 	overviewPID =
@@ -24,10 +24,10 @@ plugin.tx_sbdownloader_pi1 {
 	# download icon
 	# if set to typo3/gfx/fileicons/ typo3 standard icons appear
 	# you can set own images like:
-	# downloadIcon = typo3conf/ext/sb_downloader/pi1/images/download.gif
+	# downloadIcon = typo3conf/ext/sb_downloader/Resources/Public/images/download.gif
 	downloadIcon = typo3/gfx/fileicons/
 	# if a download icon is missing (e.g. *.rar)
-	missingDownloadIcon = typo3conf/ext/sb_downloader/pi1/images/download.gif
+	missingDownloadIcon = typo3conf/ext/sb_downloader/Resources/Public/images/download.gif
 	# distance around image
 	imageDistance = 5
 	# show file modification date (boolean)
@@ -58,7 +58,7 @@ plugin.tx_sbdownloader_pi1 {
   # use Icons for subcategory
   useCatIcons = 1
   # catIcon: path to cat Icon
-  catIcon = typo3conf/ext/sb_downloader/res/images/folder.png
+  catIcon = typo3conf/ext/sb_downloader/Resources/Public/images/folder.png
   # date and time by Kurt Kupix
   # displayCreationDate (0 = no date & time, 1 = only date, 2 = date & time)
   displayCreationDate = 1

@@ -6,13 +6,13 @@
     <sDEF>
       <ROOT>
         <TCEforms>
-          <sheetTitle>LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader_cat</sheetTitle>
+          <sheetTitle>LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader_cat</sheetTitle>
         </TCEforms>
         <type>array</type>
         <el>
 					<what_to_display>
 						<TCEforms>
-							<label>LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.what_to_display</label>
+							<label>LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.what_to_display</label>
 							<config>
 								<type>select</type>
 								<items type="array">
@@ -85,22 +85,22 @@
   	<s_conf>
   	<ROOT>
   		<TCEforms>
-  			<sheetTitle>LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader_conf</sheetTitle>
+  			<sheetTitle>LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader_conf</sheetTitle>
   		</TCEforms>   
         <type>array</type>
         <el>       					
 					<onlyFirst>
 						<TCEforms>
-							<label>LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.onlyFirst</label>
+							<label>LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.onlyFirst</label>
 							<config>
 								<type>select</type>
 								<items type="array">
 								<numIndex index="1" type="array">
-										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.clicksno</numIndex>
+										<numIndex index="0">LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.clicksno</numIndex>
 										<numIndex index="1">0</numIndex>
 									</numIndex>
 									<numIndex index="2" type="array">
-										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.clicksyes</numIndex>
+										<numIndex index="0">LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.clicksyes</numIndex>
 										<numIndex index="1">1</numIndex>
 									</numIndex>
 								</items>
@@ -111,16 +111,16 @@
 					</onlyFirst>
 					<showAll>
 						<TCEforms>
-							<label>LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.showAll</label>
+							<label>LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.showAll</label>
 							<config>
 								<type>select</type>
 								<items type="array">
 								<numIndex index="1" type="array">
-										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.clicksno</numIndex>
+										<numIndex index="0">LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.clicksno</numIndex>
 										<numIndex index="1">0</numIndex>
 									</numIndex>
 									<numIndex index="2" type="array">
-										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.clicksyes</numIndex>
+										<numIndex index="0">LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.clicksyes</numIndex>
 										<numIndex index="1">1</numIndex>
 									</numIndex>
 								</items>
@@ -131,16 +131,16 @@
 					</showAll>					
 					<linkTitle>
 						<TCEforms>
-							<label>LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.linkTitle</label>
+							<label>LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.linkTitle</label>
 							<config>
 								<type>select</type>
 								<items type="array">
 								<numIndex index="1" type="array">
-										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.clicksno</numIndex>
+										<numIndex index="0">LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.clicksno</numIndex>
 										<numIndex index="1">0</numIndex>
 									</numIndex>
 									<numIndex index="2" type="array">
-										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.clicksyes</numIndex>
+										<numIndex index="0">LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.clicksyes</numIndex>
 										<numIndex index="1">1</numIndex>
 									</numIndex>
 								</items>
@@ -151,16 +151,16 @@
 					</linkTitle>					
 					<showMore>
 						<TCEforms>
-							<label>LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.showMore</label>
+							<label>LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.showMore</label>
 							<config>
 								<type>select</type>
 								<items type="array">
 								<numIndex index="1" type="array">
-										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.clicksno</numIndex>
+										<numIndex index="0">LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.clicksno</numIndex>
 										<numIndex index="1">0</numIndex>
 									</numIndex>
 									<numIndex index="2" type="array">
-										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.clicksyes</numIndex>
+										<numIndex index="0">LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.clicksyes</numIndex>
 										<numIndex index="1">1</numIndex>
 									</numIndex>
 								</items>
@@ -171,7 +171,7 @@
 					</showMore>
                <orderbyCats>
 						<TCEforms>
-							<label>LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.orderbyCats</label>
+							<label>LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.orderbyCats</label>
 							<config>
 								<type>select</type>
 								<items type="array">
@@ -180,15 +180,15 @@
    										<numIndex index="1"></numIndex>
    								</numIndex>
    								<numIndex index="1" type="array">
-   										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.orderbyTitle</numIndex>
+   										<numIndex index="0">LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.orderbyTitle</numIndex>
    										<numIndex index="1">cat</numIndex>
    								</numIndex>
    								<numIndex index="2" type="array">
-   									<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.orderbyCrDate</numIndex>
+   									<numIndex index="0">LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.orderbyCrDate</numIndex>
    									<numIndex index="1">crdate</numIndex>
    								</numIndex>
    								<numIndex index="3" type="array">
-   									<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.orderbyLastModified</numIndex>
+   									<numIndex index="0">LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.orderbyLastModified</numIndex>
    									<numIndex index="1">tstamp</numIndex>
    								</numIndex>
    								</items>
@@ -200,16 +200,16 @@
 
                <ascdescCats>
 						<TCEforms>
-							<label>LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.ascdescCats</label>
+							<label>LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.ascdescCats</label>
 							<config>
 								<type>select</type>
 								<items type="array">
    								<numIndex index="1" type="array">
-   										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.asc</numIndex>
+   										<numIndex index="0">LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.asc</numIndex>
    										<numIndex index="1">ASC</numIndex>
    								</numIndex>
    								<numIndex index="2" type="array">
-   										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.desc</numIndex>
+   										<numIndex index="0">LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.desc</numIndex>
    										<numIndex index="1">DESC</numIndex>
    								</numIndex>
    							</items>
@@ -220,7 +220,7 @@
 					</ascdescCats>					
                <orderby>
 						<TCEforms>
-							<label>LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.orderby</label>
+							<label>LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.orderby</label>
 							<config>
 								<type>select</type>
 								<items type="array">
@@ -229,27 +229,27 @@
    										<numIndex index="1"></numIndex>
    								</numIndex>
    								<numIndex index="1" type="array">
-   										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.orderbyTitle</numIndex>
+   										<numIndex index="0">LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.orderbyTitle</numIndex>
    										<numIndex index="1">name</numIndex>
    								</numIndex>
    								<numIndex index="3" type="array">
-   									<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.orderbyCrDate</numIndex>
+   									<numIndex index="0">LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.orderbyCrDate</numIndex>
    									<numIndex index="1">crdate</numIndex>
    								</numIndex>
    								<numIndex index="4" type="array">
-   									<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.orderbyLastModified</numIndex>
+   									<numIndex index="0">LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.orderbyLastModified</numIndex>
    									<numIndex index="1">tstamp</numIndex>
    								</numIndex>
    								<numIndex index="5" type="array">
-   									<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader_singlepid</numIndex>
+   									<numIndex index="0">LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader_singlepid</numIndex>
    									<numIndex index="1">singleID</numIndex>
    								</numIndex>		
 								<numIndex index="6" type="array">
-   									<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader_backend</numIndex>
+   									<numIndex index="0">LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader_backend</numIndex>
    									<numIndex index="1">backend</numIndex>
    								</numIndex>	
 								<numIndex index="7" type="array">
-   									<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader_sortshortdescription</numIndex>
+   									<numIndex index="0">LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader_sortshortdescription</numIndex>
    									<numIndex index="1">description</numIndex>
    								</numIndex>	
    								</items>
@@ -261,16 +261,16 @@
 
                <ascdesc>
 						<TCEforms>
-							<label>LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.ascdesc</label>
+							<label>LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.ascdesc</label>
 							<config>
 								<type>select</type>
 								<items type="array">
    								<numIndex index="1" type="array">
-   										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.asc</numIndex>
+   										<numIndex index="0">LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.asc</numIndex>
    										<numIndex index="1">ASC</numIndex>
    								</numIndex>
    								<numIndex index="2" type="array">
-   										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.desc</numIndex>
+   										<numIndex index="0">LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.desc</numIndex>
    										<numIndex index="1">DESC</numIndex>
    								</numIndex>
    							</items>
@@ -281,16 +281,16 @@
 					</ascdesc>
 					<filesize>
 						<TCEforms>
-							<label>LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.filesize</label>
+							<label>LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.filesize</label>
 							<config>
 								<type>select</type>
 								<items type="array">
 								<numIndex index="1" type="array">
-										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.clicksno</numIndex>
+										<numIndex index="0">LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.clicksno</numIndex>
 										<numIndex index="1">0</numIndex>
 									</numIndex>
 									<numIndex index="2" type="array">
-										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.clicksyes</numIndex>
+										<numIndex index="0">LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.clicksyes</numIndex>
 										<numIndex index="1">1</numIndex>
 									</numIndex>
 								</items>
@@ -301,16 +301,16 @@
 					</filesize>
 					<filedate>
 						<TCEforms>
-							<label>LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.filedate</label>
+							<label>LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.filedate</label>
 							<config>
 								<type>select</type>
 								<items type="array">
 								<numIndex index="1" type="array">
-										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.clicksno</numIndex>
+										<numIndex index="0">LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.clicksno</numIndex>
 										<numIndex index="1">0</numIndex>
 									</numIndex>
 									<numIndex index="2" type="array">
-										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.clicksyes</numIndex>
+										<numIndex index="0">LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.clicksyes</numIndex>
 										<numIndex index="1">1</numIndex>
 									</numIndex>
 								</items>
@@ -321,20 +321,20 @@
 					</filedate>
 					<showCRDate>
 						<TCEforms>
-							<label>LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.showCRDate</label>
+							<label>LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.showCRDate</label>
 							<config>
 								<type>select</type>
 								<items type="array">
 								<numIndex index="1" type="array">
-										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.showCRDate.nodate</numIndex>
+										<numIndex index="0">LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.showCRDate.nodate</numIndex>
 										<numIndex index="1">0</numIndex>
 									</numIndex>
 									<numIndex index="2" type="array">
-										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.showCRDate.date</numIndex>
+										<numIndex index="0">LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.showCRDate.date</numIndex>
 										<numIndex index="1">1</numIndex>
 									</numIndex>
 									<numIndex index="3" type="array">
-										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.showCRDate.datetime</numIndex>
+										<numIndex index="0">LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.showCRDate.datetime</numIndex>
 										<numIndex index="1">2</numIndex>
 									</numIndex>
 								</items>
@@ -345,16 +345,16 @@
 					</showCRDate>
 					<showEditDate>
 						<TCEforms>
-							<label>LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.showEditDate</label>
+							<label>LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.showEditDate</label>
 							<config>
 								<type>select</type>
 								<items type="array">
 								<numIndex index="1" type="array">
-										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.clicksno</numIndex>
+										<numIndex index="0">LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.clicksno</numIndex>
 										<numIndex index="1">0</numIndex>
 									</numIndex>
 									<numIndex index="2" type="array">
-										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.clicksyes</numIndex>
+										<numIndex index="0">LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.clicksyes</numIndex>
 										<numIndex index="1">1</numIndex>
 									</numIndex>
 								</items>
@@ -365,16 +365,16 @@
 					</showEditDate>
 					<downloads>
 						<TCEforms>
-							<label>LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.showclicks</label>
+							<label>LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.showclicks</label>
 							<config>
 								<type>select</type>
 								<items type="array">
 								<numIndex index="1" type="array">
-										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.clicksno</numIndex>
+										<numIndex index="0">LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.clicksno</numIndex>
 										<numIndex index="1">0</numIndex>
 									</numIndex>
 									<numIndex index="2" type="array">
-										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.clicksyes</numIndex>
+										<numIndex index="0">LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.clicksyes</numIndex>
 										<numIndex index="1">1</numIndex>
 									</numIndex>
 								</items>
@@ -385,16 +385,16 @@
 					</downloads>
 					<secureDownloads>
 						<TCEforms>
-							<label>LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.secureDownloads</label>
+							<label>LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.secureDownloads</label>
 							<config>
 								<type>select</type>
 								<items type="array">
 								<numIndex index="1" type="array">
-										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.clicksno</numIndex>
+										<numIndex index="0">LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.clicksno</numIndex>
 										<numIndex index="1">0</numIndex>
 									</numIndex>
 									<numIndex index="2" type="array">
-										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.clicksyes</numIndex>
+										<numIndex index="0">LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.clicksyes</numIndex>
 										<numIndex index="1">1</numIndex>
 									</numIndex>
 								</items>
@@ -405,16 +405,16 @@
 					</secureDownloads>
 					<related>
 						<TCEforms>
-							<label>LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader_images.related</label>
+							<label>LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader_images.related</label>
 							<config>
 								<type>select</type>
 								<items type="array">
 								<numIndex index="1" type="array">
-										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.clicksno</numIndex>
+										<numIndex index="0">LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.clicksno</numIndex>
 										<numIndex index="1">0</numIndex>
 									</numIndex>
 									<numIndex index="2" type="array">
-										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.clicksyes</numIndex>
+										<numIndex index="0">LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.clicksyes</numIndex>
 										<numIndex index="1">1</numIndex>
 									</numIndex>
 								</items>
@@ -425,16 +425,16 @@
 					</related>					
 					<imagelink>
 						<TCEforms>
-							<label>LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.imagelink</label>
+							<label>LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.imagelink</label>
 							<config>
 								<type>select</type>
 								<items type="array">
 								<numIndex index="1" type="array">
-										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.clicksno</numIndex>
+										<numIndex index="0">LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.clicksno</numIndex>
 										<numIndex index="1">0</numIndex>
 									</numIndex>
 									<numIndex index="2" type="array">
-										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.clicksyes</numIndex>
+										<numIndex index="0">LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.clicksyes</numIndex>
 										<numIndex index="1">1</numIndex>
 									</numIndex>
 								</items>
@@ -445,7 +445,7 @@
 					</imagelink>	
 					<limit>
 						<TCEforms>
-						<label>LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.limit</label>
+						<label>LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.limit</label>
 						<config>
 							<type>input</type>
 							<size>60</size>
@@ -460,22 +460,22 @@
     <s_licence>
   	<ROOT>
   		<TCEforms>
-  			<sheetTitle>LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader_licence</sheetTitle>
+  			<sheetTitle>LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader_licence</sheetTitle>
   		</TCEforms>   
         <type>array</type>
         <el>  
 					<licence>
 						<TCEforms>
-							<label>LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.licence</label>
+							<label>LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.licence</label>
 							<config>
 								<type>select</type>
 								<items type="array">
 								<numIndex index="1" type="array">
-										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.clicksno</numIndex>
+										<numIndex index="0">LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.clicksno</numIndex>
 										<numIndex index="1">0</numIndex>
 									</numIndex>
 									<numIndex index="2" type="array">
-										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.clicksyes</numIndex>
+										<numIndex index="0">LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.clicksyes</numIndex>
 										<numIndex index="1">1</numIndex>
 									</numIndex>
 								</items>
@@ -487,7 +487,7 @@
 					<licencelink>
 						<TCEforms>
 								<exclude>1</exclude>
-								<label>LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.licencelink</label>
+								<label>LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.licencelink</label>
 								<config>
 										<type>input</type>
 										<size>30</size>
@@ -516,16 +516,16 @@
 					</licencelink>
 					<licencesubsite>
 						<TCEforms>
-							<label>LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.licencesubsite</label>
+							<label>LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.licencesubsite</label>
 							<config>
 								<type>select</type>
 								<items type="array">
 								<numIndex index="1" type="array">
-										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.clicksno</numIndex>
+										<numIndex index="0">LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.clicksno</numIndex>
 										<numIndex index="1">0</numIndex>
 									</numIndex>
 									<numIndex index="2" type="array">
-										<numIndex index="0">LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.clicksyes</numIndex>
+										<numIndex index="0">LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.clicksyes</numIndex>
 										<numIndex index="1">1</numIndex>
 									</numIndex>
 								</items>
@@ -540,13 +540,13 @@
     <s_template>
   	<ROOT>
   		<TCEforms>
-  			<sheetTitle>LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader_template</sheetTitle>
+  			<sheetTitle>LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader_template</sheetTitle>
   		</TCEforms>   
         <type>array</type>
         <el>  
 			<template_file>
 				<TCEforms>
-					<label>LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.template_file</label>
+					<label>LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.template_file</label>
 					<config>
 						<type>group</type>
 						<internal_type>file</internal_type>
@@ -561,7 +561,7 @@
 			</template_file> 
 			<tabid>
 				<TCEforms>
-				<label>LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.tab</label>
+				<label>LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.tab</label>
 				<config>
 					<type>input</type>
 					<size>10</size>
@@ -571,7 +571,7 @@
 			</tabid>
 			<height>
 				<TCEforms>
-				<label>LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.height</label>
+				<label>LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.height</label>
 				<config>
 					<type>input</type>
 					<size>10</size>
@@ -585,13 +585,13 @@
 		<s_singlepid>
   	<ROOT>
   		<TCEforms>
-  			<sheetTitle>LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader_singlepid</sheetTitle>
+  			<sheetTitle>LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader_singlepid</sheetTitle>
   		</TCEforms>   
         <type>array</type>
         <el>  
 		<singlePID>
 			<TCEforms>
-				<label>LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader.singlePID</label>
+				<label>LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader.singlePID</label>
 				<config>
 					<type>group</type>
 					<internal_type>db</internal_type>

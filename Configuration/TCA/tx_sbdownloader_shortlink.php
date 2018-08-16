@@ -2,7 +2,7 @@
 
 return array(
 	"ctrl" => array (
-		'title'     => 'LLL:EXT:sb_downloader/locallang_db.xml:tx_sbdownloader_shortlink',
+		'title'     => 'LLL:EXT:sb_downloader/Resources/Private/Language/Backend/locallang_db.xml:tx_sbdownloader_shortlink',
 		'label'     => 'cat',
 		'tstamp'    => 'tstamp',
 		'crdate'    => 'crdate',
@@ -19,7 +19,7 @@ return array(
 			'disabled' => 'hidden',
 		),
 		//'dynamicConfigFile' => \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath($_EXTKEY).'tca.php',
-		'iconfile'          => 'EXT:sb_downloader/icon_tx_sbdownloader_cat.gif',
+		'iconfile'          => 'EXT:sb_downloader/Resources/Public/Icons/icon_tx_sbdownloader_cat.gif',
 	),
 	"feInterface" => array (
 		"fe_admin_fieldList" => "sys_language_uid, l18n_parent, l18n_diffsource, hidden, cat, parent_cat",
